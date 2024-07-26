@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m/home/saish_k/chisel-digital-designs/full_adder/src/main/scala/full_adder.scala:17:26: not found: value a[0m
+[0m[[0m[31merror[0m] [0m[0m    half_adder_1.io.a := a[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/saish_k/chisel-digital-designs/full_adder/src/main/scala/full_adder.scala:18:26: not found: value b[0m
+[0m[[0m[31merror[0m] [0m[0m    half_adder_1.io.b := b [0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/saish_k/chisel-digital-designs/full_adder/src/main/scala/full_adder.scala:21:26: not found: value carry_in[0m
+[0m[[0m[31merror[0m] [0m[0m    half_adder_2.io.b := carry_in[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

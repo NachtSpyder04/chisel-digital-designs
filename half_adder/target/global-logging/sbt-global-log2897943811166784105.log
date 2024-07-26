@@ -1,0 +1,135 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[info] Updated file /home/saish_k/chisel-digital-designs/design_1/project/build.properties: set sbt.version to 1.10.0
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.10.0 (Eclipse Adoptium Java 17)
+[debug] Load.defaultLoad until apply took 77.905595ms
+[debug]                 Load.loadUnit: plugins took 50.291602ms
+[debug]                 Load.loadUnit: defsScala took 0.269295ms
+[debug] [Loading] Scanning directory /home/saish_k/chisel-digital-designs/design_1/project/project
+[debug]                   Load.loadUnit: mkEval took 4.722392ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/saish_k/chisel-digital-designs/design_1/project/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 9.739919 ms
+[info] loading settings for project design_1-build-build from metals.sbt ...
+[debug]                     Load.resolveProject(design_1-build-build) took 36.443686ms
+[debug]                   Load.loadTransitive: finalizeProject(Project(id design_1-build-build, base: /home/saish_k/chisel-digital-designs/design_1/project/project, plugins: List(<none>))) took 51.331816ms
+[debug] [Loading] Done in /home/saish_k/chisel-digital-designs/design_1/project/project, returning: (design_1-build-build)
+[debug]                 Load.loadUnit: loadedProjectsRaw took 1718.690324ms
+[debug]                 Load.loadUnit: cleanEvalClasses took 8.378483ms
+[debug]               Load.loadUnit(file:/home/saish_k/chisel-digital-designs/design_1/project/project/, ...) took 1782.67557ms
+[debug]             Load.apply: load took 1870.842362ms
+[debug]             Load.apply: resolveProjects took 3.082351ms
+[debug]             Load.apply: finalTransforms took 43.338666ms
+[debug]             Load.apply: config.delegates took 5.03522ms
+[debug]             Load.apply: Def.make(settings)... took 254.163177ms
+[debug]             Load.apply: structureIndex took 78.542688ms
+[debug]             Load.apply: mkStreams took 1.19753ms
+[info] loading project definition from /home/saish_k/chisel-digital-designs/design_1/project/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]           Load.loadUnit: plugins took 6750.125814ms
+[debug]           Load.loadUnit: defsScala took 0.004528ms
+[debug] [Loading] Scanning directory /home/saish_k/chisel-digital-designs/design_1/project
+[debug]             Load.loadUnit: mkEval took 0.249615ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/saish_k/chisel-digital-designs/design_1/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.620843 ms
+[info] loading settings for project design_1-build from metals.sbt ...
+[debug]               Load.resolveProject(design_1-build) took 22.172769ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id design_1-build, base: /home/saish_k/chisel-digital-designs/design_1/project, plugins: List(<none>))) took 26.707239ms
+[debug] [Loading] Done in /home/saish_k/chisel-digital-designs/design_1/project, returning: (design_1-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 513.12561ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.89777ms
+[debug]         Load.loadUnit(file:/home/saish_k/chisel-digital-designs/design_1/project/, ...) took 7265.001227ms
+[debug]       Load.apply: load took 7267.216674ms
+[debug]       Load.apply: resolveProjects took 0.18231ms
+[debug]       Load.apply: finalTransforms took 16.185462ms
+[debug]       Load.apply: config.delegates took 0.444868ms
+[debug]       Load.apply: Def.make(settings)... took 92.196542ms
+[debug]       Load.apply: structureIndex took 34.408227ms
+[debug]       Load.apply: mkStreams took 0.003737ms
+[info] loading project definition from /home/saish_k/chisel-digital-designs/design_1/project
+[debug] Evaluating tasks: bloopInstall
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Generated .bloop/design_1-build.json
+[success] Total time: 6 s, completed 26-Jul-2024, 10:49:53 am
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 13856.927359ms
+[debug]     Load.loadUnit: defsScala took 0.003877ms
+[debug] [Loading] Scanning directory /home/saish_k/chisel-digital-designs/design_1
+[debug]       Load.loadUnit: mkEval took 0.176362ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/saish_k/chisel-digital-designs/design_1, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.734289 ms
+[info] loading settings for project design_1 from build.sbt ...
+[debug]         Load.resolveProject(design_1) took 17.69945ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id design_1, base: /home/saish_k/chisel-digital-designs/design_1, plugins: List(<none>))) took 20.078626ms
+[debug] [Loading] Done in /home/saish_k/chisel-digital-designs/design_1, returning: (design_1)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1632.820071ms
+[debug]     Load.loadUnit: cleanEvalClasses took 1.237796ms
+[debug]   Load.loadUnit(file:/home/saish_k/chisel-digital-designs/design_1/, ...) took 15491.99604ms
+[debug] Load.apply: load took 15505.120868ms
+[debug] Load.apply: resolveProjects took 0.135262ms
+[debug] Load.apply: finalTransforms took 14.038973ms
+[debug] Load.apply: config.delegates took 0.473223ms
+[debug] Load.apply: Def.make(settings)... took 59.663607ms
+[debug] Load.apply: structureIndex took 31.082567ms
+[debug] Load.apply: mkStreams took 0.003446ms
+[info] set current project to design_1 (in build file:/home/saish_k/chisel-digital-designs/design_1/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(bloopInstall, None, None)
+[debug] Evaluating tasks: bloopInstall
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true

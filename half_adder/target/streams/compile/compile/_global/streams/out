@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/saish_k/chisel-digital-designs/design_1/src/main/scala/half_adder.scala:22:20: value && is not a member of chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m  io.carry := io.a && io.b[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

@@ -1,0 +1,8 @@
+*/generated
+*/.metals
+*/.vscode
+*/.bloop
+*/test_run_dir
+*/target
+*.class
+
