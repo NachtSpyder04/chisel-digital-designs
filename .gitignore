@@ -5,4 +5,5 @@
 */test_run_dir
 */target
 *.class
+*/project
 
