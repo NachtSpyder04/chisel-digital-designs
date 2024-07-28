@@ -6,4 +6,5 @@
 */target
 *.class
 */project
-
+.metals
+.vscode
