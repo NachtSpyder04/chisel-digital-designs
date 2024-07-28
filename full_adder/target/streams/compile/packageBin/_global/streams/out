@@ -1,13 +1,23 @@
-[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/saish_k/chisel-digital-designs/design_1/target/scala-2.12/design_1_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/saish_k/chisel-digital-designs/full_adder/target/scala-2.12/full_adder_2.12-0.1.0-SNAPSHOT.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	half_adderMain$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/saish_k/chisel-digital-designs/design_1/target/scala-2.12/classes/half_adderMain$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/saish_k/chisel-digital-designs/full_adder/target/scala-2.12/classes/half_adderMain$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	full_adderMain.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/saish_k/chisel-digital-designs/full_adder/target/scala-2.12/classes/full_adderMain.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	full_adderMain$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/saish_k/chisel-digital-designs/full_adder/target/scala-2.12/classes/full_adderMain$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	full_adder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/saish_k/chisel-digital-designs/full_adder/target/scala-2.12/classes/full_adder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	full_adderMain$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/saish_k/chisel-digital-designs/full_adder/target/scala-2.12/classes/full_adderMain$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	half_adderMain.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/saish_k/chisel-digital-designs/design_1/target/scala-2.12/classes/half_adderMain.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/saish_k/chisel-digital-designs/full_adder/target/scala-2.12/classes/half_adderMain.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	half_adder.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/saish_k/chisel-digital-designs/design_1/target/scala-2.12/classes/half_adder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/saish_k/chisel-digital-designs/full_adder/target/scala-2.12/classes/half_adder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	full_adder$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/saish_k/chisel-digital-designs/full_adder/target/scala-2.12/classes/full_adder$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	half_adderMain$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/saish_k/chisel-digital-designs/design_1/target/scala-2.12/classes/half_adderMain$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/saish_k/chisel-digital-designs/full_adder/target/scala-2.12/classes/half_adderMain$delayedInit$body.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	half_adder$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/saish_k/chisel-digital-designs/design_1/target/scala-2.12/classes/half_adder$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/saish_k/chisel-digital-designs/full_adder/target/scala-2.12/classes/half_adder$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

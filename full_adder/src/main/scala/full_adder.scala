@@ -24,3 +24,8 @@ class full_adder extends Module {
     io.carry_out := half_adder_2.io.carry | half_adder_1.io.carry
 
 }
+
+object full_adderMain extends App {
+  println("Generating Verilog")
+  emitVerilog(new full_adder(), Array("--target-dir", "generated"))
+}
